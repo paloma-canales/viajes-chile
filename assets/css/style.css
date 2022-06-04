@@ -25,3 +25,7 @@ body {
   a{
       color:white;
   }
+
+  .pointer {
+      cursor: pointer;
+  }

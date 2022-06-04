@@ -1,5 +1,9 @@
 $(function() {
+    $('[data-bs-toggle="tooltip"]').tooltip()
 
+    $('button').click(function() {
+        alert('Correo enviado ' + $('#exampleInputName').val())
+    })
 })
 
 $(document).scroll(function() {
